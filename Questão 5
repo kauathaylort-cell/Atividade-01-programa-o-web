@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Notas/</title>
+</head>
+<body>
+
+  <h2>Sistema de Notas</h2>
+
+  <input type="number" id="nota" placeholder="Digite a nota">
+  <button onclick="verificarNota()">Verificar</button>
+
+  <p id="resultado"></p>
+
+  <script>
+    function verificarNota() {
+      let nota = parseFloat(document.getElementById("nota").value);
+      let resultado = document.getElementById("resultado");
+
+      if (nota >= 6) {
+        resultado.innerHTML = "Aprovado";
+      } else {
+        resultado.innerHTML = "Reprovado";
+      }
+    }
+  </script>
+
+</body>
+</html>
