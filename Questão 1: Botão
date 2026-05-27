@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E os guri ne pai</title>
+    <title>Document</title>
 </head>
 <body>
-    <h1>Atividade do botao!</h1>
+     <h1>Atividade do botao!</h1>
     <button onclick="mostrarMensagem()">
         Clique aqui e se supreenda!
     </button>
@@ -15,6 +15,5 @@
             alert("BOOOOOOO, Surpresa man!");
         }
     </script>
-
 </body>
 </html>
